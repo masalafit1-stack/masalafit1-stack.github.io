@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MasalaFit — Calorie Tracker for Desi Food</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@700;900&family=Inter:wght@400;500&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: #FAF6EE;
+      color: #1a1a1a;
+      font-family: 'Inter', sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem 1.5rem;
+      text-align: center;
+    }
+
+    .logo {
+      font-family: 'Fraunces', serif;
+      font-size: clamp(3rem, 10vw, 5.5rem);
+      font-weight: 900;
+      color: #C4531A;
+      letter-spacing: -0.02em;
+      line-height: 1;
+      margin-bottom: 1rem;
+    }
+
+    .tagline {
+      font-family: 'Fraunces', serif;
+      font-size: clamp(1.1rem, 3.5vw, 1.5rem);
+      font-weight: 700;
+      color: #3d2b1f;
+      margin-bottom: 1.5rem;
+    }
+
+    .description {
+      font-size: clamp(0.95rem, 2.5vw, 1.1rem);
+      color: #5a4a40;
+      max-width: 520px;
+      line-height: 1.7;
+      margin-bottom: 2.5rem;
+    }
+
+    .app-store-btn {
+      display: inline-block;
+      background: #C4531A;
+      color: #FAF6EE;
+      text-decoration: none;
+      border-radius: 14px;
+      padding: 0.85rem 2rem;
+      font-size: 1rem;
+      font-weight: 500;
+      letter-spacing: 0.01em;
+      transition: background 0.2s;
+      margin-bottom: 3.5rem;
+    }
+
+    .app-store-btn:hover { background: #a84415; }
+
+    .app-store-btn span {
+      display: block;
+      font-size: 0.7rem;
+      font-weight: 400;
+      opacity: 0.85;
+      margin-bottom: 0.1rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+
+    footer {
+      font-size: 0.85rem;
+      color: #8a7060;
+    }
+
+    footer a {
+      color: #C4531A;
+      text-decoration: none;
+    }
+
+    footer a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+
+  <h1 class="logo">MasalaFit</h1>
+  <p class="tagline">The calorie tracker built for desi food.</p>
+  <p class="description">
+    Most apps have never heard of paya. MasalaFit has 230+ South Asian dishes — and it accounts for how they're actually cooked. Tell us the portion, the ghee, the method. Get numbers you can trust.
+  </p>
+
+  <a class="app-store-btn" href="https://apps.apple.com/app/masalafit" target="_blank" rel="noopener">
+    <span>Download on the</span>
+    App Store
+  </a>
+
+  <footer>
+    Questions? <a href="mailto:masalafit1@gmail.com">masalafit1@gmail.com</a>
+  </footer>
+
+</body>
+</html>
