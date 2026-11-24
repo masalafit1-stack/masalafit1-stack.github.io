@@ -1,1 +1,10 @@
-{}
+{
+  "id": "test-2026-11-23-a",
+  "message": "Test announcement. Tap to continue.",
+  "cta_label": "Open",
+  "cta_url": "masalafit://",
+  "starts": "2026-11-22",
+  "ends": "2026-12-31",
+  "min_version": "1.5.1",
+  "max_version": null
+}
